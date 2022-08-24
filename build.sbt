@@ -17,8 +17,8 @@ lazy val sharedSettings = Seq(
     "com.softwaremill.sttp.client3" %% "zio" % sttpClientVersion,
     "com.softwaremill.sttp.client3" %% "zio" % sttpVersion,
     "com.softwaremill.sttp.client3" %% "slf4j-backend" % sttpVersion,
-    "dev.zio" %% "zio-json" % "0.3.0-RC10",
-  ),
+    "dev.zio" %% "zio-json" % "0.3.0-RC10"
+  )
 )
 
 lazy val root = (project in file("."))

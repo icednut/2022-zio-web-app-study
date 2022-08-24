@@ -1,0 +1,8 @@
+project/target
+project/project
+target/
+.bsp
+.idea
+
+ch1/target
+ch2/target
